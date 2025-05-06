@@ -16,7 +16,7 @@ header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 91px 50px 97px;
+  padding: 91px 50px 96px;
 }
 
 .header__logo {
@@ -31,19 +31,17 @@ header {
 
 .header__links-list {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 14px;
-  list-style: none;
+  gap: 29px;
+  list-style: circle outside;
 }
 
 .header__links-list-item {
-  padding-left: 19px;
-  background: url(../images/list_marker.svg) no-repeat 0 50%;
+  padding-left: 5px;
 }
 
 .header__list-item_no-bullit {
-  background: none;
+  list-style: none;
   padding-left: 0;
 }
 
